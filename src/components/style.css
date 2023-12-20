@@ -48,10 +48,12 @@
     .login-container {
       max-width: 100%;
       margin-left: 10px;
+      margin-right: 10px;
     }
   
     input,
     button {
-      width: 100%;
-    }
+        width: auto; /* Allow the button to shrink to its content's width */
+      }
   }
+  
