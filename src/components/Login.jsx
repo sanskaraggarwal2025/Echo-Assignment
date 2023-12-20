@@ -31,7 +31,9 @@ const LoginForm = () => {
             setUsername('');
             setPassword('');
         } else {
-            console.log('User not found. Please check your username.');
+          window.alert('User not found. Please check your username.');
+          setUsername('');
+          setPassword('');
         }
     };
 
